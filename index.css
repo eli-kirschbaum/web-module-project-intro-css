@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+:focus {
+    outline: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+html{
+	font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+/* button styling */
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+}
+
+.a1{
+	background-color:#FF764E;
+	margin-left:10%;
+}
+.a2{
+	background-color:#5ED3EB;
+	margin: 0 24%;
+}
+.a3{
+	background-color:#FFCD69;
+	margin-right:10%;
+}
+
+/* header styling */
+header nav{
+	padding:3%;
+}
+.header-content-container{
+    position:relative;
+	padding:5%;
+}
+
+.left, .right{
+    display:inline-block;
+    text-align:center;
+}
+.left{
+    width:30%;
+}
+.left img{
+    border-radius:50%;
+    width:80%;
+}
+.right{
+    width:50%;
+    margin-left:5%;
+    position:absolute;
+    top:40%;
+}
+
+/* main text body styling */
+.main-content{
+	margin-bottom:3%;
+}
+.main-content .bot{
+	margin-left:5%;
+	margin-right:5%;
+}
+.top{
+    color:white;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#DDB9A3;
+	justify-content: center;
+}
+.top p{
+	padding:2%;
+}
+
+.thing1{
+    text-align:center;
+    width:40%;
+    margin-left:40%;
+    margin-right:40%;
+
+}
+.thing2{
+    text-align:center;
+	justify-content:center;
+    width:40%;
+    margin-left:40%;
+    margin-right:40%;
+}
+/* footer styling */
+.footer-image{
+    max-width:100%;
+	height:10%;
+}
+footer{
+	background-color:#F9E7DC;
+}
+footer a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+}
+footer .nav-container{
+	padding:3%;
+}
+
